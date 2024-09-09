@@ -1,6 +1,6 @@
 const message = document.querySelector(".thank-you-message");
 
-document.querySelector("#unhashed-form").addEventListener("submit", (event) => {
+document.querySelector(".unhashed-form").addEventListener("submit", (event) => {
   event.preventDefault();
   const form = event.target;
 
